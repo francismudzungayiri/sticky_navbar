@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAEDF0;
+    font-size: 16px;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+    color: #292C6D;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+}
+span{
+    color: #2b8fd1;
+    font-weight: 700;
+    font-size: 2rem;
+}
+h1{
+    color: #EC255A;
+    margin: 2rem 0;
+    letter-spacing: 2px;
+    font-family: 'Dancing Script', cursive;
+}
+nav{
+    padding: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #161853;
+    height: fit-content;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 3rem;
+    color: #FAEDF0;
+    text-transform: capitalize;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+section{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #EC255A;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.sticky_navbar{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+nav div .nav-logo{
+    display: none;
+    margin: 0;
+}
+.fab{
+    margin: 3rem 0;
+    color: #EC255A;
+    font-size: 3rem;
+}
+.add_logo_on_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
